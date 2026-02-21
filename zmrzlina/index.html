@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zmrzlina</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <button onclick="vynulovat()" class="vynulovat">Vynulovat</button>
+    <div class="zmrzkacontainer">
+        <div class="radek">
+            <div class="zmrka">
+                <img onclick="koupeno(document.getElementById('cena1'),document.getElementById('kusy1'))" class="obrazek" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfF2GG6Mwam8WbY9HC4n12zMuIKG9UGhpvQQ&s" alt="zmrzlina1">
+                <div class="cena"><span id="cena1">25</span> kč</div>
+                <div class="kusy"><span id="kusy1">20</span> ks</div>
+            </div>
+            <div class="zmrka">
+                <img onclick="koupeno(document.getElementById('cena2'),document.getElementById('kusy2'))" class="obrazek" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfF2GG6Mwam8WbY9HC4n12zMuIKG9UGhpvQQ&s" alt="zmrzlina2">
+                <div class="cena"><span id="cena2">15</span> kč</div>
+                <div class="kusy"><span id="kusy2">20</span>ks</div>
+            </div>
+            <div class="zmrka">
+                <img onclick="koupeno(document.getElementById('cena3'),document.getElementById('kusy3'))" class="obrazek" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfF2GG6Mwam8WbY9HC4n12zMuIKG9UGhpvQQ&s" alt="zmrzlina3">
+                <div class="cena"><span id="cena3">20</span> kč</div>
+                <div class="kusy"><span id="kusy3">20</span> ks</div>
+            </div>
+        </div>
+        <div class="radek">
+            <div class="zmrka">
+                <img onclick="koupeno(document.getElementById('cena4'),document.getElementById('kusy4'))" class="obrazek" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfF2GG6Mwam8WbY9HC4n12zMuIKG9UGhpvQQ&s" alt="zmrzlina4">
+                <div class="cena"><span id="cena4">30</span> kč</div>
+                <div class="kusy"><span id="kusy4">20</span> ks</div>
+            </div>
+            <div class="zmrka">
+                <img onclick="koupeno(document.getElementById('cena5'),document.getElementById('kusy5'))" class="obrazek"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfF2GG6Mwam8WbY9HC4n12zMuIKG9UGhpvQQ&s" alt="zmrzlina5">
+                <div class="cena"><span id="cena5">10</span> kč</div>
+                <div class="kusy"><span id="kusy5">20</span> ks</div>
+            </div>
+            <div class="zmrka">
+                <img onclick="koupeno(document.getElementById('cena6'),document.getElementById('kusy6'))" class="obrazek" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfF2GG6Mwam8WbY9HC4n12zMuIKG9UGhpvQQ&s" alt="zmrzlina6">
+                <div class="cena"><span id="cena6">5</span> kč</div>
+                <div class="kusy"><span id="kusy6">15</span> ks</div>
+            </div>
+        </div>
+    </div>
+    <div class="obrat"><p>Denní Obrat v Kč: <div id="obrat">0</div></p></div>
+    
+</body>
+
+</html>

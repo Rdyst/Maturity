@@ -1,0 +1,29 @@
+
+.radek{
+    display: flex;
+    
+}
+
+.zmrzkacontainer{
+    justify-self: center;
+}
+
+.zmrka{
+    margin: 1em;
+}
+
+.vynulovat{
+    justify-self: right;
+    padding: 5em;
+}
+
+.cena, .kusy{
+    margin-top: 1em;
+    justify-self: center;
+
+}
+
+.obrazek:hover{
+    cursor: pointer;
+
+}
