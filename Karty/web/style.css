@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    max-width: 90vw;
+    background: linear-gradient(45deg, rgb(168, 32, 32), rgb(34, 34, 39));
+}
+.kartycon{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.karta{
+    background-color: whitesmoke;
+    padding: 30vh  10vh;
+    margin: 1vw;
+    border: 5px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+.resetcon{
+    padding: 2vw;
+
+}
+a{
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 2vw;
+    color: rgb(181, 216, 23);
+}
+#hadana{
+    border: 5px solid rgba(0, 0, 0, 0.466);
+    background-color: rgb(245, 245, 91);
+    cursor: default;
+}
+
+#vyhra{
+    background-color: rgb(55, 236, 55);
+}
+
+#prohra{
+    background-color: rgba(255, 46, 46, 0.603);
+}
