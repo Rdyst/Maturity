@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   <section id="Home">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="#Home">Domů</a></li>
+        <li><a href="#Devices">Zařízení</a></li>
+        <li><a href="#Add">Přidání Zařízení</a></li>
+        <li><a href="#Kontakt">Kontakt</a></li>
+    </ul>
+   </section>
+   <section id="Devices">
+    <h2>Zařízení</h2>
+    <div class="devcon" id="devcon">
+        <div class="device1">
+            <p>Název: Notebook Lenovo</p>
+            <p>Typ: Laptop</p>
+            <p>Stav: Funkční</p>
+            <button>Detail</button>
+        </div>
+        <div class="device2">
+            <p>Název: Simsung A22</p>
+            <p>Typ: Telefon</p>
+            <p>Stav: Nefunkční</p>
+            <button>Detail</button>
+        </div>
+        <div class="device3">
+            <p>Název: Sony WH-420</p>
+            <p>Typ: Sluchátka</p>
+            <p>Stav: Funkční</p>
+            <button>Detail</button>
+        </div>
+    </div>
+   </section>
+   <section id="Add">
+    <h2>Přidat Zařízení</h2>
+    <div class="addcon">
+        <form name="create">
+            <label for="name">Nazev Zařízení:</label>
+            <input type="text" id="name" name="name" value="" placeholder="Laptop Ultranook" maxlength="10"><br>
+            <label for="Typ">Typ Zařízení:</label>
+            <select id="Typ" name="typ">
+                <option value="Notebook">Notebook</option>
+                <option value="Telefon">Telefon</option>
+                <option value="Sluchátka">Sluchátka</option>
+            </select><br>
+            <label for="Stav">Stav Zařízení:</label>
+            <select id="Stav" name="Stav">
+                <option value="Funkční">Funkční</option>
+                <option value="Nefunkční">Nefunkční</option>
+                <option value="Nevim">Nevim</option>
+            </select><br>
+            
+        </form>
+        <button onclick="add_device()">Přidat</button>
+    </div>
+   </section>
+   <section id="Kontakt">
+    <h2>Kontakt</h2>
+    <p>Emil: negr@negros.nekr</p>
+    <p>Telefon: 420 670 690</p>
+   </section>
+</body>
+</html>
